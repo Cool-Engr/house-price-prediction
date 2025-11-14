@@ -62,12 +62,12 @@ def analyze_home():
             num_comps=5
         )
         
-        # Step 3: Estimate price based on comparables
-        price_recommendation = price_estimator.estimate_price(
-            subject_home=subject_home,
-            comparables=top_comparables,
-            condition_summary=condition_summary
-        )
+        # # Step 3: Estimate price based on comparables
+        # price_recommendation = price_estimator.estimate_price(
+        #     subject_home=subject_home,
+        #     comparables=top_comparables,
+        #     condition_summary=condition_summary
+        # )
         
         # Step 4: Generate justification
         justification = justification_generator.generate(
