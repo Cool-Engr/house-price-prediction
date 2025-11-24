@@ -23,12 +23,12 @@ const PricingReportView: React.FC<PricingReportViewProps> = ({ report }) => {
     switch (confidence) {
       case 'High':
         return 'confidence-badge high';
-      // case 'Medium':
-      //   return 'confidence-badge medium';
-      // case 'Low':
-      //   return 'confidence-badge low';
-      // default:
-      //   return 'confidence-badge';
+      case 'Medium':
+        return 'confidence-badge medium';
+      case 'Low':
+        return 'confidence-badge low';
+      default:
+        return 'confidence-badge';
     }
   };
 
