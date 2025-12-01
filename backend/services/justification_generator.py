@@ -24,16 +24,16 @@ class JustificationGenerator:
         sections.append(self._generate_summary(subject_home, price_recommendation))
         
         # Market analysis
-        # sections.append(self._generate_market_analysis(comparables, price_recommendation))
+        sections.append(self._generate_market_analysis(comparables, price_recommendation))
         
-        # # Property condition analysis
-        # sections.append(self._generate_condition_analysis(condition_summary))
+        # Property condition analysis
+        sections.append(self._generate_condition_analysis(condition_summary))
         
-        # # Comparable properties analysis
-        # sections.append(self._generate_comparables_analysis(subject_home, comparables))
+        # Comparable properties analysis
+        sections.append(self._generate_comparables_analysis(subject_home, comparables))
         
-        # # Key adjustments
-        # sections.append(self._generate_adjustments_analysis(price_recommendation))
+        # Key adjustments
+        sections.append(self._generate_adjustments_analysis(price_recommendation))
         
         # Conclusion
         sections.append(self._generate_conclusion(price_recommendation))
