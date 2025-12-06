@@ -51,9 +51,9 @@ class JustificationGenerator:
         return (
             f"**Executive Summary**\n\n"
             f"Based on comprehensive market analysis, we recommend listing {address} at "
-            f"${price:,}. Our analysis indicates a probable sale price range of "
-            f"${price_low:,} to ${price_high:,}, with {confidence.lower()} confidence in this estimate. "
-            f"This valuation is supported by recent comparable sales and a thorough condition assessment."
+            # f"${price:,}. Our analysis indicates a probable sale price range of "
+            # f"${price_low:,} to ${price_high:,}, with {confidence.lower()} confidence in this estimate. "
+            # f"This valuation is supported by recent comparable sales and a thorough condition assessment."
         )
     
     def _generate_market_analysis(self, comparables: List[Dict[str, Any]], price_recommendation: Dict[str, Any]) -> str:
