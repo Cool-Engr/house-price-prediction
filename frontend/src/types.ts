@@ -50,22 +50,22 @@ export interface ConditionSummary {
   summary: string;
 }
 
-export interface PriceRecommendation {
-  recommended_price: number;
-  price_range: {
-    low: number;
-    high: number;
-  };
-  confidence: 'High' | 'Medium' | 'Low';
-  price_per_sqft: number;
-  base_price: number;
-  total_adjustment_pct: number;
-  adjustments: {
-    condition_adjustment: number;
-    feature_adjustments: Record<string, number>;
-  };
-  methodology: string;
-}
+// export interface PriceRecommendation {
+//   recommended_price: number;
+//   price_range: {
+//     low: number;
+//     high: number;
+//   };
+//   confidence: 'High' | 'Medium' | 'Low';
+//   price_per_sqft: number;
+//   base_price: number;
+//   total_adjustment_pct: number;
+//   adjustments: {
+//     condition_adjustment: number;
+//     feature_adjustments: Record<string, number>;
+//   };
+//   methodology: string;
+// }
 
 export interface PricingReport {
   success: boolean;
