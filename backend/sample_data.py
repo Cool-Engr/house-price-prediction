@@ -119,18 +119,18 @@ COMPARABLE_SALES = [
         "days_since_sale": 90,
         "sale_date": "2025-07-10"
     },
-    {
-        "address": "222 Birch Court, Austin, TX 78701",
-        "latitude": 30.2668,
-        "longitude": -97.7428,
-        "square_footage": 2420,
-        "bedrooms": 4,
-        "bathrooms": 3,
-        "year_built": 2010,
-        "pool": True,
-        "garage": True,
-        "sale_price": 680000,
-        "days_since_sale": 50,
-        "sale_date": "2025-08-19"
-    }
+    # {
+    #     "address": "222 Birch Court, Austin, TX 78701",
+    #     "latitude": 30.2668,
+    #     "longitude": -97.7428,
+    #     "square_footage": 2420,
+    #     "bedrooms": 4,
+    #     "bathrooms": 3,
+    #     "year_built": 2010,
+    #     "pool": True,
+    #     "garage": True,
+    #     "sale_price": 680000,
+    #     "days_since_sale": 50,
+    #     "sale_date": "2025-08-19"
+    # }
 ]
