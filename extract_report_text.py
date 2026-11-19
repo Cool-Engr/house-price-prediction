@@ -99,11 +99,11 @@ def extract_text_simple():
     print("    - Condition assessment")
     print("    - Issues and positive features")
     print()
-    print("  Section 3 (4-3.png): METHODOLOGY & DISCLAIMERS")
-    print("    - How price was calculated")
-    print("    - Data sources")
-    print("    - Legal disclaimers")
-    print()
+    # print("  Section 3 (4-3.png): METHODOLOGY & DISCLAIMERS")
+    # print("    - How price was calculated")
+    # print("    - Data sources")
+    # print("    - Legal disclaimers")
+    # print()
 
 if __name__ == '__main__':
     extract_text_simple()
